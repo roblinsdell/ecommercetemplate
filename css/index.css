@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  } /* This styling is to prevent the footer riding too far up the page when there is not enough content by using flex to
+    define body and footer as two separate object within a column. It is continued in the styling of the footer itself. */
+  
+  .navbar {
+	display:flex;
+  position: fixed; 
+  width: 90%;
+  padding-right: 3%;
+  border: 3px solid lightblue;
+  background-color: white;
+  
+  } /* Rules for the container of the nav bar. Uses flex to fix the bar in the same position when scrolling for convenience. */
+
+
+
+   .classlogo {
+     width: 10%;
+     height: auto;
+     
+    } /* Rules for size of logo */
+
+    
+  
+  .classcart {
+    position: fixed;
+    bottom: 35%;
+    right: 6%;
+    width: 12%;
+    border: 2px solid lightblue;
+    
+   } /* Rules for size and position of shopping cart logo */
+  
+   .classfooter {
+      display: flex;
+      margin-top: auto;
+      
+   } /* Rules to allow the footer to stay below the body in its flex column by defining it a large margin. */
+
+    li {
+	   list-style: none;
+	   font-size: xx-large;
+	   
+   } /* Font size of links in navbar */
+
+   ul {
+	   display: flex;
+	   justify-content: space-between;
+	   align-items: center;
+	   width: 100%;
+	   font-family: 'calibri', cursive;
+	   font-size: 70;
+ 
+   } /* Rules for the content of the nav bar. Basic stylings for the content of the unordered list which contains 
+    the site's links and logo. */
+ 
+  
+  a.one:link {color:black;}
+  a.one:visited {color:black;}
+  a.one:hover {color:lightsteelblue;}
+  
+  a.two:link {color:black;}
+  a.two:visited {color:black;}
+  a.two:hover {color:lightsteelblue;}
+  
+  a.three:link {color:black;}
+  a.three:visited {color:black;}
+  a.three:hover {color:lightsteelblue;}
+
+  a.four:link {color:black;}
+  a.four:visited {color:black;}
+  a.four:hover {color:lightsteelblue;}
+
+  /* Rules for the links on the navbar to change colour when hovered over by the mouse pointer */
+  
+
+  #title {
+	
+	margin: 0px auto 0px auto;
+	width: 90%;
+  padding-top: 10%;
+	font-family: 'Arial', cursive;
+	object-position: left;
+	text-align: left;
+	font-size: 140%
+  } /* Formatting rules for page title. Margin is given top padding of 10% so that it loads below the navbar. 
+    Navbar is formatted as fixed display at the top of the page using flex rules. This means it is not ordered before the 
+    page title since it is no longer following standard positioning rules. Without the added padding, the title would
+    load behind the navbar. */
+
+  #text {
+    margin-left: 5%;
+    margin-right: 20%
+
+  }
+  #title2 {
+	
+    margin: 0px auto 0px auto;
+    width: 90%;
+    font-family: 'Arial', cursive;
+    object-position: left;
+    text-align: left;
+    font-size: 140%
+    }
+    /*positional formatting*/
+
+    /*>©RobertLinsdell 2023*/
